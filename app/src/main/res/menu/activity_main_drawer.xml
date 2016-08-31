@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_taxCode"
+            android:icon="@mipmap/ic_document"
+            android:title="Налоговый кодекс"/>
+            />
+
+        <item
+            android:id="@+id/nav_Koap"
+            android:icon="@mipmap/ic_document"
+            android:title="Административный кодекс" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@mipmap/ic_contact"
+                android:title="Рассказать другу" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Поддержка" />
+            <item
+                android:id="@+id/about_application"
+                android:icon="@drawable/ic_menu_send"
+                android:title="О приложении" />
+        </menu>
+    </item>
+
+</menu>
